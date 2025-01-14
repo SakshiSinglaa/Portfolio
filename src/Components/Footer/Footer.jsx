@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Footer.css';
 import myLogo1 from '../../Assets/myLogo1.png';
 import scrollToTopImg from '../../Assets/scrollToTop.jpeg'; 
@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <img src={myLogo1} alt="footer_logo" />
-          <p>I'm a frontend developer from India.</p>
+          <p>I&apos;m a frontend developer from India.</p>
         </div>
       </div>
 
@@ -35,8 +35,8 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="footer-bottom-left">© 2024 Sakshi Singla. All rights reserved.</p>
         <div className="footer-bottom-right">
-          <p>Terms of Services</p>
-          <p>Privacy Policy</p>
+          {/* <p>Terms of Services</p>
+          <p>Privacy Policy</p> */}
           <p>
             <a href="https://bio.link/sakshisingla">Connect with me</a>
           </p>
