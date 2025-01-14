@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Contact.css';
 import mail_icon from '../../Assets/mail_icon.svg';
 import location_icon from '../../Assets/location_icon.svg';
@@ -50,8 +50,8 @@ const Contact = () => {
 
       <div className="contact-section">
         <div className="contact-left">
-          <h1>Let's talk!</h1>
-          <p>I'm currently available to take new projects, and get up new internships.</p>
+          <h1>Let&apos;s talk!</h1>
+          <p>I&apos;m currently available to take new projects, and get up new internships.</p>
 
           <div className="contact-details">
             <div className="contact-detail">

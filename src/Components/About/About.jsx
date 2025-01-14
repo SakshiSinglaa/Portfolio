@@ -1,4 +1,3 @@
-import React from 'react'
 import './About.css'
 import about_profile from '../../Assets/about_profile.jpg'
 
@@ -11,12 +10,12 @@ const About = () => {
 
       <div className="about-sections">
         <div className="about-left">
-            <img src={about_profile} alt='profile' />
+            <img src={about_profile} alt="profile" />
         </div>
 
         <div className="about-right">
             <div className="about-para">
-                <p>Hello, I'm Sakshi Singla, a passionate B.Tech. CSE Graduate with a strong interest in Web Development and WordPress. As a skilled Front-end Developer, I have hands-on experience in creating responsive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. I specialize in WordPress development, leveraging its flexibility to build dynamic and functional websites.</p>
+                <p>Hello, I&apos;m Sakshi Singla, a passionate B.Tech. CSE Graduate with a strong interest in Web Development and WordPress. As a skilled Front-end Developer, I have hands-on experience in creating responsive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. I specialize in WordPress development, leveraging its flexibility to build dynamic and functional websites.</p>
                 <p>In addition to front-end expertise, I also have a keen interest in MySQL and enjoy working with databases to optimize backend processes and enhance data management capabilities. With a problem-solving mindset and a focus on usability, I thrive in developing seamless web solutions that deliver a great user experience.</p>
                 <p>Let’s connect and build something amazing together!</p>
             </div>

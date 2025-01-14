@@ -1,8 +1,6 @@
-import React from 'react';
 import './MyWork.css';
 import educationData from '../../Assets/education_data';
 import workExperienceData from '../../Assets/workExperienceData';
-import arrow_icon from '../../Assets/arrow_icon.svg';
 
 const MyWork = () => {
   return (

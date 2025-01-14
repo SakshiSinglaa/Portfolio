@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Navbar.css'
 import myLogo1 from '../../Assets/myLogo1.png'
 // import underline from '../../Assets/nav_underline.svg'
@@ -9,7 +9,7 @@ import { useRef } from 'react'
 
 const Navbar = () => {
 
-  const [menu, setMenu] = useState("home");
+  const setMenu = useState("home")[1];
   const menuRef = useRef();
 
   const openMenu = () => {
