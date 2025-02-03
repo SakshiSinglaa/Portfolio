@@ -33,7 +33,6 @@ const Footer = () => {
       <hr />
 
       <div className="footer-bottom">
-{/*         <p className="footer-bottom-left">© 2024 Sakshi Singla. All rights reserved.</p> */}
         <div className="footer-bottom-right">
           {/* <p>Terms of Services</p>
           <p>Privacy Policy</p> */}
